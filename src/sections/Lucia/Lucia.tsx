@@ -9,9 +9,9 @@ export default function Lucia() {
   return (
     <section
       ref={sectionRef}
-      className="relative z-10 py-40 mt-60 flex lg:flex-row flex-col justify-between gap-5 w-dvw overflow-x-hidden"
+      className="relative z-10 py-20 md:py-40 mt-20 md:mt-60 flex lg:flex-row flex-col-reverse justify-between gap-5 w-dvw overflow-x-hidden"
     >
-      <div className="flex flex-col gap-5 items-end img-box lg:w-1/2 ps-10 mt-96">
+      <div className="flex flex-col gap-5 items-end img-box lg:w-1/2 ps-10 mt-20 lg:mt-96">
         <div className="bg-yellow lg:h-[80vh] w-auto -translate-x-5">
           <img
             src={LUCIA.images[0]}

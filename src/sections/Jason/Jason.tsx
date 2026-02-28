@@ -9,7 +9,7 @@ export default function Jason() {
   return (
     <section
       ref={sectionRef}
-      className="relative z-10 lg:ps-40 2xl:ps-80 ps-10 py-40 mt-60 flex lg:flex-row flex-col justify-between gap-5 w-dvw overflow-x-hidden"
+      className="relative z-10 lg:ps-40 2xl:ps-80 ps-10 py-20 md:py-40 mt-20 md:mt-60 flex lg:flex-row flex-col justify-between gap-5 w-dvw overflow-x-hidden"
     >
       <div className="max-w-lg radial-fade-bg">
         <h1 className="text-yellow font-long uppercase text-8xl mb-20">
@@ -31,7 +31,7 @@ export default function Jason() {
         </div>
       </div>
 
-      <div className="space-y-5 mt-96 img-box">
+      <div className="space-y-5 mt-20 lg:mt-96 img-box">
         <div className="bg-yellow lg:h-[80vh] w-auto -translate-x-5">
           <img
             src={JASON.images[0]}

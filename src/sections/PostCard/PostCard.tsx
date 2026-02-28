@@ -15,7 +15,7 @@ export default function PostCard() {
   return (
     <section
       ref={sectionRef}
-      className="relative flex justify-center items-center pt-60 pb-80 shadow-2xl overflow-hidden"
+      className="relative flex justify-center items-center pt-20 md:pt-60 pb-40 md:pb-80 shadow-2xl overflow-hidden"
     >
       <div className="animated-gradient-bg absolute w-full md:h-[200vh] h-[220vh] left-0 xl:-bottom-1/2 md:-bottom-5/6" />
 
