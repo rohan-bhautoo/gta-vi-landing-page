@@ -16,9 +16,9 @@ export const LUCIA: CharacterData = {
   name: "Lucia Caminos",
   title: "Lucia's father taught her to fight as soon as she could walk.",
   description:
-    "Life has been coming at her swinging ever since. Fighting for her family landed her in the Leonida Penitentiary. Sheer luck got her out. Lucia's learned her lesson — only smart moves from here.",
+    "Life has been coming at her swinging ever since. Fighting for her family landed her in the Leonida Penitentiary. Sheer luck got her out. Lucia's learned her lesson - only smart moves from here.",
   quote:
-    "More than anything, Lucia wants the good life her mom has dreamed of since their days in Liberty City — but instead of half-baked fantasies, Lucia is prepared to take matters into her own hands.",
+    "More than anything, Lucia wants the good life her mom has dreamed of since their days in Liberty City - but instead of half-baked fantasies, Lucia is prepared to take matters into her own hands.",
   images: [
     "/images/lucia-1.webp",
     "/images/lucia-2.webp",

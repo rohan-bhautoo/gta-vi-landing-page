@@ -1,14 +1,14 @@
-import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { useRef } from "react";
 
 const STORY_LINES = [
   "Vice City, USA.",
   "Jason and Lucia find themselves caught up",
   "in a criminal conspiracy that stretches",
   "across the fictional state of Leonida.",
-  "An easy score gone wrong forces them to run —",
-  "and fight — for survival.",
+  "An easy score gone wrong forces them to run -",
+  "and fight - for survival.",
 ];
 
 export default function StoryIntro() {
@@ -24,21 +24,23 @@ export default function StoryIntro() {
 
       gsap.set(lines, { opacity: 0, y: 30 });
 
-      gsap.timeline({
-        scrollTrigger: {
-          trigger: section,
-          start: "top top",
-          end: "bottom top",
-          scrub: 1,
-          pin: true,
-        },
-      }).to(lines, {
-        opacity: 1,
-        y: 0,
-        stagger: 0.15,
-        duration: 0.5,
-        ease: "power2.out",
-      });
+      gsap
+        .timeline({
+          scrollTrigger: {
+            trigger: section,
+            start: "top top",
+            end: "bottom top",
+            scrub: 1,
+            pin: true,
+          },
+        })
+        .to(lines, {
+          opacity: 1,
+          y: 0,
+          stagger: 0.15,
+          duration: 0.5,
+          ease: "power2.out",
+        });
     },
     { scope: sectionRef },
   );

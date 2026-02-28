@@ -4,7 +4,7 @@ export const LOCATIONS: LocationData[] = [
   {
     name: "Vice City",
     description:
-      "The beating heart of Leonida — neon lights, towering condos, and endless corruption.",
+      "The beating heart of Leonida - neon lights, towering condos, and endless corruption.",
     image: "/images/locations/vice-city.jpg",
   },
   {
@@ -22,7 +22,7 @@ export const LOCATIONS: LocationData[] = [
   {
     name: "Port Gellhorn",
     description:
-      "A bustling industrial port — the gateway for everything legal and otherwise.",
+      "A bustling industrial port - the gateway for everything legal and otherwise.",
     image: "/images/locations/port-gellhorn.jpg",
   },
   {
