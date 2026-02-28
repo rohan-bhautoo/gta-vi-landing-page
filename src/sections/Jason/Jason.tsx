@@ -22,11 +22,11 @@ export default function Jason() {
           {JASON.description}
         </p>
 
-        <div className="bg-yellow lg:h-auto w-auto md:mt-36 mt-20 -translate-x-5">
+        <div className="bg-yellow h-[90vh] w-auto md:mt-36 mt-20 -translate-x-5">
           <img
             src={JASON.images[1]}
             alt={`${JASON.name} portrait`}
-            className="size-full object-cover [object-position:80%_center] hover:scale-x-[0.97] hover:scale-y-[0.98] transition duration-700 ease-in-out"
+            className="size-full object-cover object-[80%_center] hover:scale-x-[0.97] hover:scale-y-[0.98] transition duration-700 ease-in-out"
           />
         </div>
       </div>
@@ -36,14 +36,14 @@ export default function Jason() {
           <img
             src={JASON.images[0]}
             alt={`${JASON.name} action shot`}
-            className="size-full object-cover [object-position:5%_center] hover:scale-[0.98] transition duration-700 ease-in-out"
+            className="size-full object-cover object-[5%_center] hover:scale-[0.98] transition duration-700 ease-in-out"
           />
         </div>
         <div className="bg-yellow h-[50vh] md:w-[60%] -translate-x-5">
           <img
             src={JASON.images[2]}
             alt={`${JASON.name} scenic shot`}
-            className="size-full object-cover [object-position:42%_center] hover:scale-[0.97] transition duration-700 ease-in-out"
+            className="size-full object-cover object-[42%_center] hover:scale-[0.97] transition duration-700 ease-in-out"
           />
         </div>
       </div>
