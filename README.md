@@ -1,73 +1,71 @@
-# React + TypeScript + Vite
+# GTA VI Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fan-made landing page inspired by the official [Rockstar Games GTA VI website](https://www.rockstargames.com/VI). Built as a creative front-end project to explore scroll-driven animations and cinematic web design.
 
-Currently, two official plugins are available:
+> **Disclaimer**: This is a personal project for learning and portfolio purposes. All GTA VI assets, characters, and branding belong to Rockstar Games / Take-Two Interactive.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Hero Section](placeholder-hero.png)
 
-## React Compiler
+## What It Does
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Cinematic hero section with a mask reveal animation on scroll
+- Scroll-driven video playback that syncs with your scrolling
+- Character profile sections for Jason and Lucia with parallax effects
+- Story introduction with line-by-line text reveals
+- Supporting cast gallery featuring 6 characters from the game
+- Horizontal-scrolling location explorer across 6 areas of Leonida
+- Postcard video section with hover effects
+- Trailer modal that plays the official YouTube trailer
+- Newsletter signup section and footer
 
-## Expanding the ESLint configuration
+![Characters](placeholder-characters.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Built With
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **React 19** + **TypeScript**
+- **Vite** for fast development and builds
+- **GSAP** (ScrollTrigger + ScrollSmoother) for all scroll animations
+- **Tailwind CSS v4** for styling
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+![Locations](placeholder-locations.png)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+
+# Build for production
+npm run build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Project Structure
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+src/
+├── sections/         # Each page section (Hero, Jason, Lucia, etc.)
+├── hooks/            # Custom hooks for scroll and video animations
+├── constants/        # Character and location data
+├── components/ui/    # Shared components (trailer modal)
+└── types/            # TypeScript interfaces
+```
+
+## Screenshots
+
+| Section               | Preview                               |
+| --------------------- | ------------------------------------- |
+| Hero + Mask Animation | ![Hero](placeholder-hero-detail.png)  |
+| Jason Profile         | ![Jason](placeholder-jason.png)       |
+| Lucia Profile         | ![Lucia](placeholder-lucia.png)       |
+| Supporting Cast       | ![Cast](placeholder-cast.png)         |
+| Explore Leonida       | ![Locations](placeholder-explore.png) |
+| Postcard              | ![Postcard](placeholder-postcard.png) |
+
+## Credits
+
+- Character and location artwork from the official [Rockstar Games GTA VI page](https://www.rockstargames.com/VI)
+- Fonts and video assets from the original project
+- Trailer: [GTA VI Trailer 1](https://www.youtube.com/watch?v=QdBZY2fkU-0)
