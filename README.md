@@ -4,7 +4,7 @@ A fan-made landing page inspired by the official [Rockstar Games GTA VI website]
 
 > **Disclaimer**: This is a personal project for learning and portfolio purposes. All GTA VI assets, characters, and branding belong to Rockstar Games / Take-Two Interactive.
 
-![Hero Section](placeholder-hero.png)
+![Hero Section](docs/screenshots/hero.png)
 
 ## What It Does
 
@@ -18,7 +18,7 @@ A fan-made landing page inspired by the official [Rockstar Games GTA VI website]
 - Trailer modal that plays the official YouTube trailer
 - Newsletter signup section and footer
 
-![Characters](placeholder-characters.png)
+![Characters](docs/screenshots/characters.png)
 
 ## Built With
 
@@ -27,7 +27,7 @@ A fan-made landing page inspired by the official [Rockstar Games GTA VI website]
 - **GSAP** (ScrollTrigger + ScrollSmoother) for all scroll animations
 - **Tailwind CSS v4** for styling
 
-![Locations](placeholder-locations.png)
+![Locations](docs/screenshots/locations.png)
 
 ## Getting Started
 
@@ -55,17 +55,18 @@ src/
 
 ## Screenshots
 
-| Section               | Preview                               |
-| --------------------- | ------------------------------------- |
-| Hero + Mask Animation | ![Hero](placeholder-hero-detail.png)  |
-| Jason Profile         | ![Jason](placeholder-jason.png)       |
-| Lucia Profile         | ![Lucia](placeholder-lucia.png)       |
-| Supporting Cast       | ![Cast](placeholder-cast.png)         |
-| Explore Leonida       | ![Locations](placeholder-explore.png) |
-| Postcard              | ![Postcard](placeholder-postcard.png) |
+| Section               | Preview                                             |
+| --------------------- | --------------------------------------------------- |
+| Hero + Mask Animation | ![Hero](docs/screenshots/hero-section.png)          |
+| Jason Profile         | ![Jason](docs/screenshots/jason-section.png)        |
+| Lucia Profile         | ![Lucia](docs/screenshots/lucia-section.png)        |
+| Supporting Cast       | ![Cast](docs/screenshots/cast-section.png)          |
+| Explore Leonida       | ![Locations](docs/screenshots/location-section.png) |
+| Postcard              | ![Postcard](docs/screenshots/postcard-section.png)  |
 
 ## Credits
 
 - Character and location artwork from the official [Rockstar Games GTA VI page](https://www.rockstargames.com/VI)
 - Fonts and video assets from the original project
 - Trailer: [GTA VI Trailer 1](https://www.youtube.com/watch?v=QdBZY2fkU-0)
+- Trailer: [GTA VI Trailer 2](https://www.youtube.com/watch?v=VQRLujxTm3c)
