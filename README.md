@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/23946aec-9980-4084-8c7f-b4a3c6e94b6a
 - Trailer modal that plays the official YouTube trailer
 - Newsletter signup section and footer
 
-![Characters](docs/screenshots/characters.png)
+![Characters](docs/screenshots/cast-section.png)
 
 ## Built With
 
@@ -27,7 +27,7 @@ https://github.com/user-attachments/assets/23946aec-9980-4084-8c7f-b4a3c6e94b6a
 - **GSAP** (ScrollTrigger + ScrollSmoother) for all scroll animations
 - **Tailwind CSS v4** for styling
 
-![Locations](docs/screenshots/locations.png)
+![Locations](docs/screenshots/location-section.png)
 
 ## Getting Started
 
