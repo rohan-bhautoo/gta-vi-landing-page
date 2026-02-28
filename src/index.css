@@ -48,7 +48,7 @@ body {
 
 @layer components {
   .gradient-title {
-    @apply md:text-[8rem] text-[3rem] sm:text-[4rem] font-round-bold !font-extrabold uppercase md:leading-[7rem] sm:leading-[3.5rem] leading-[2.8rem] text-center bg-gradient-to-r from-pink-400 via-red-400 to-orange-400 bg-clip-text text-transparent;
+    @apply md:text-[8rem] text-[3rem] sm:text-[4rem] font-round-bold font-extrabold! uppercase md:leading-28 sm:leading-14 leading-[2.8rem] text-center bg-linear-to-r from-pink-400 via-red-400 to-orange-400 bg-clip-text text-transparent;
   }
 }
 

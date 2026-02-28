@@ -16,14 +16,14 @@ export default function Lucia() {
           <img
             src={LUCIA.images[0]}
             alt={`${LUCIA.name} portrait`}
-            className="size-full object-cover [object-position:85%_center] hover:scale-[0.98] transition duration-700 ease-in-out"
+            className="size-full object-cover object-[85%_center] hover:scale-[0.98] transition duration-700 ease-in-out"
           />
         </div>
         <div className="bg-yellow lg:h-[90vh] md:w-[60%] -translate-x-5">
           <img
             src={LUCIA.images[2]}
             alt={`${LUCIA.name} action shot`}
-            className="size-full object-cover [object-position:62%_center] hover:scale-x-[0.98] hover:scale-y-[0.99] transition duration-700 ease-in-out"
+            className="size-full object-cover object-[62%_center] hover:scale-x-[0.98] hover:scale-y-[0.99] transition duration-700 ease-in-out"
           />
         </div>
       </div>
@@ -45,7 +45,7 @@ export default function Lucia() {
           <img
             src={LUCIA.images[1]}
             alt={`${LUCIA.name} scenic shot`}
-            className="size-full object-cover [object-position:50%_center] hover:scale-x-[0.98] hover:scale-y-[0.98] transition duration-700 ease-in-out"
+            className="size-full object-cover object-[50%_center] hover:scale-x-[0.98] hover:scale-y-[0.98] transition duration-700 ease-in-out"
           />
         </div>
 

@@ -31,4 +31,10 @@ export const LOCATIONS: LocationData[] = [
       "Exclusive gated communities hiding the darkest secrets behind pristine lawns.",
     image: "/images/locations/ambrosia.jpg",
   },
+  {
+    name: "Mount Kalaga",
+    description:
+      "Rugged highlands where survivalists and outlaws disappear off the grid.",
+    image: "/images/locations/mount-kalaga.jpg",
+  },
 ];
