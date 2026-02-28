@@ -13,6 +13,8 @@ import Locations from "./sections/Locations/Locations";
 import PostCard from "./sections/PostCard/PostCard";
 import Final from "./sections/Final/Final";
 import Outro from "./sections/Outro/Outro";
+import Newsletter from "./sections/Newsletter/Newsletter";
+import Footer from "./sections/Footer/Footer";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -36,6 +38,8 @@ export default function App() {
           <PostCard />
           <Final />
           <Outro />
+          <Newsletter />
+          <Footer />
         </main>
       </div>
     </>
