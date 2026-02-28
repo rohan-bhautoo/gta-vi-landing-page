@@ -36,7 +36,7 @@ export default function PostCard() {
           className="w-full h-full 2xl:scale-x-105 object-cover"
         />
 
-        <button className="rounded-full bg-white absolute left-1/2 -translate-x-1/2 md:bottom-16 -bottom-28 md:w-fit w-2/3 px-5 md:px-7 py-4 text-lg group-hover:bg-yellow transition duration-700">
+        <button className="rounded-full bg-white absolute z-20 left-1/2 -translate-x-1/2 md:bottom-16 -bottom-28 md:w-fit w-2/3 px-5 md:px-7 py-4 text-lg group-hover:bg-yellow transition duration-700 cursor-pointer">
           Explore Leonida Keys
         </button>
       </div>
