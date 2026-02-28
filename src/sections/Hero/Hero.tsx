@@ -1,15 +1,17 @@
 import { useCallback, useRef, useState } from "react";
 import TrailerModal from "../../components/ui/TrailerModal";
+import { TRAILER_1_URL, TRAILER_2_URL } from "../../constants/trailers";
 import ComingSoon from "./ComingSoon";
 import { useHeroAnimation } from "./useHeroAnimation";
 
 export default function Hero() {
   const containerRef = useRef<HTMLElement>(null);
-  const [trailerOpen, setTrailerOpen] = useState(false);
+  const [trailerUrl, setTrailerUrl] = useState<string | null>(null);
   useHeroAnimation(containerRef);
 
-  const openTrailer = useCallback(() => setTrailerOpen(true), []);
-  const closeTrailer = useCallback(() => setTrailerOpen(false), []);
+  const openTrailer1 = useCallback(() => setTrailerUrl(TRAILER_1_URL), []);
+  const openTrailer2 = useCallback(() => setTrailerUrl(TRAILER_2_URL), []);
+  const closeTrailer = useCallback(() => setTrailerUrl(null), []);
 
   return (
     <>
@@ -33,12 +35,12 @@ export default function Hero() {
         <img
           src="/images/watch-trailer.png"
           alt="Watch trailer"
-          onClick={openTrailer}
+          onClick={openTrailer2}
           className="trailer-logo fade-out absolute -bottom-5 w-48 left-1/2 -translate-x-1/2 z-10 cursor-pointer"
         />
         <button
-          aria-label="Play trailer"
-          onClick={openTrailer}
+          aria-label="Play trailer 1"
+          onClick={openTrailer1}
           className="play-img fade-out rounded-full md:size-28 size-20 bg-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex justify-center items-center cursor-pointer hover:scale-110 transition-transform duration-300 z-10"
         >
           <img src="/images/play.png" alt="" className="w-7 ml-1" />
@@ -63,7 +65,11 @@ export default function Hero() {
         <ComingSoon />
       </section>
 
-      <TrailerModal isOpen={trailerOpen} onClose={closeTrailer} />
+      <TrailerModal
+        isOpen={!!trailerUrl}
+        onClose={closeTrailer}
+        url={trailerUrl ?? ""}
+      />
     </>
   );
 }

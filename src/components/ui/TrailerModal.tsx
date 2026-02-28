@@ -4,12 +4,10 @@ import { createPortal } from "react-dom";
 interface TrailerModalProps {
   isOpen: boolean;
   onClose: () => void;
+  url: string;
 }
 
-const TRAILER_URL =
-  "https://www.youtube.com/embed/QdBZY2fkU-0?autoplay=1&rel=0";
-
-export default function TrailerModal({ isOpen, onClose }: TrailerModalProps) {
+export default function TrailerModal({ isOpen, onClose, url }: TrailerModalProps) {
   const overlayRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -47,7 +45,7 @@ export default function TrailerModal({ isOpen, onClose }: TrailerModalProps) {
 
       <div className="w-[90vw] max-w-5xl aspect-video">
         <iframe
-          src={TRAILER_URL}
+          src={url}
           title="Grand Theft Auto VI Trailer"
           className="size-full rounded-lg"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
