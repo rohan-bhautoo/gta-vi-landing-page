@@ -67,6 +67,6 @@ src/
 ## Credits
 
 - Character and location artwork from the official [Rockstar Games GTA VI page](https://www.rockstargames.com/VI)
-- Fonts and video assets from the original project
+- Fonts and video assets from the official Rockstar Games website
 - Trailer: [GTA VI Trailer 1](https://www.youtube.com/watch?v=QdBZY2fkU-0)
 - Trailer: [GTA VI Trailer 2](https://www.youtube.com/watch?v=VQRLujxTm3c)
