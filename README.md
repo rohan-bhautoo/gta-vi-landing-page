@@ -4,7 +4,7 @@ A fan-made landing page inspired by the official [Rockstar Games GTA VI website]
 
 > **Disclaimer**: This is a personal project for learning and portfolio purposes. All GTA VI assets, characters, and branding belong to Rockstar Games / Take-Two Interactive.
 
-![Hero Section](docs/screenshots/hero.png)
+https://github.com/user-attachments/assets/23946aec-9980-4084-8c7f-b4a3c6e94b6a
 
 ## What It Does
 
